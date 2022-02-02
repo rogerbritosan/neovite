@@ -1,0 +1,10 @@
+.banner-principal-neovite {
+    background-image:url(../img/banner-neovite.png);
+    height:402px;
+}
+
+@media (min-width: 320px){
+    .banner-principal-neovite {
+        height: 487px;
+    }
+}
