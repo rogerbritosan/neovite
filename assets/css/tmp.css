@@ -1,12 +1,7 @@
-.limit, .min-limit, .cms-home .list-home .banners-list, .catalog-product-view .list-home .banners-list, .catalog-category-view .list-home .banners-list, .widget-banner-inline {
+.wrapper {
     position: relative;
-    max-width: 1390px;
+    overflow: hidden;
     margin: 0 auto;
-    padding: 20px;
-}
-
-@media only screen and (max-width: 1024px){
-    .limit, .min-limit, .cms-home .list-home .banners-list, .catalog-product-view .list-home .banners-list, .catalog-category-view .list-home .banners-list, .widget-banner-inline {
-        width: 100% !important;
-    }
+    max-width: 1460px;
+    background: #fff;
 }
