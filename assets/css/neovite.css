@@ -94,6 +94,7 @@
     background-color: transparent;
     border-radius:3px;
     transition: width .6s;
+    transition-timing-function: ease;
 }
 
 .dmri-menu-link:hover {
@@ -101,7 +102,14 @@
     font-weight:bold;
 }
 
-.dmri-menu-link:hover:after {
+.dmri-menu-link.active {
+    font-weight:bold;
+    color:#062C4E;
+}
+
+.dmri-menu-link:hover:after,
+.dmri-menu-link.active::after
+ {
     text-decoration:none;
     background-color: #F59425;
     width:100%;
