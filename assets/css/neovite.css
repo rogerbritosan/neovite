@@ -51,10 +51,6 @@
 
 }
 
-.dmri {
-    
-}
-
 .dmri-menu-wrap {
     padding-left:20px;
     overflow-x: scroll;
@@ -69,9 +65,10 @@
 }
 
 .dmri-menu-link {
-    padding: 0;
+    padding-top: 10px;
     height:80px;
     width: 100%;
+    font-size:16px;
     text-decoration:none;
     display: flex;
     justify-content: center;
@@ -122,4 +119,21 @@
         padding: 0 51px;
         overflow:hidden;
     }
+}
+
+@media (max-width: 992px){
+
+    .dmri {
+        max-width: 100%;
+    }
+
+    .dmri-menu-wrap {
+        overflow:scroll;
+        width: 100%;
+    }
+
+    .dmri-menu {
+        width:970px;
+    }
+
 }
