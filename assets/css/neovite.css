@@ -1,0 +1,25 @@
+.banner-neovite {
+    background-image:url(../img/banner-neovite.png);
+    background-repeat:no-repeat;
+    background-position: center 0;
+    height:402px;
+}
+
+.banner-neovite__wrapper {
+    width: 100%;
+    max-width: 80%;
+    margin:0 auto;
+    padding:43px 20px;
+}
+
+@media (min-width: 992px){
+    .banner-neovite {
+        height: 487px;
+    }
+
+    .banner-neovite__wrapper {
+        max-width: 1070px;
+        padding:114px 0 62px;
+    }
+
+}

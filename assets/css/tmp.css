@@ -1,0 +1,12 @@
+.limit, .min-limit, .cms-home .list-home .banners-list, .catalog-product-view .list-home .banners-list, .catalog-category-view .list-home .banners-list, .widget-banner-inline {
+    position: relative;
+    max-width: 1390px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+    .limit, .min-limit, .cms-home .list-home .banners-list, .catalog-product-view .list-home .banners-list, .catalog-category-view .list-home .banners-list, .widget-banner-inline {
+        width: 100% !important;
+    }
+}
