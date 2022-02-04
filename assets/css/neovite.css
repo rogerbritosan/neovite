@@ -574,6 +574,10 @@
     grid-template-columns: .9fr .6fr;
 }
 
+.luteina.bottom {
+    padding-bottom:80px;
+}
+
 .luteina.recuo .luteina-wrap .luteina-content {
     columns: 300px 2;
 }
