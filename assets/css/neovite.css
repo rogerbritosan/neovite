@@ -55,6 +55,16 @@
     padding-left:20px;
     overflow-x: scroll;
     max-width:100%;
+    background-color: #fff;
+}
+
+.stickyDmri {
+    position: fixed;
+    top:0;
+    max-width: 1358px;
+    min-width: 1358px;
+    box-shadow: 0px 3px 2px 3px #0000000f;
+    z-index: 1;
 }
 
 .dmri-menu {
@@ -62,6 +72,7 @@
     padding:0;
     display:grid;
     grid-template-columns: repeat(5, 1fr);
+    background-color: #fff;
 }
 
 .dmri-menu-link {
@@ -121,7 +132,7 @@
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 991px){
 
     .dmri {
         max-width: 100%;
