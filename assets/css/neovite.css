@@ -137,3 +137,62 @@
     }
 
 }
+
+.dmri-galery {
+    list-style:none;
+    padding:0;
+}
+
+.dmri-wrap {
+    padding:0 20px;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px){
+
+    .dmri-wrap {
+        padding-top:62px;
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        column-gap: 50px;
+    }
+
+}
+
+.dmri-title {
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+}
+
+.dmri-description {
+    font-size:18px;
+    text-align:center;
+}
+
+.dmri-content {
+    columns: 330px 2;
+    column-gap: 65px;
+    text-align:center; 
+    color:#646464;
+    font-size: 16px;
+}
+
+@media (min-width: 992px){
+    .dmri-title,
+    .dmri-description,
+    .dmri-content {
+        text-align: left;
+    }
+
+    .dmri-title {
+        font-size: 55px;
+    }
+
+    .dmri-description {
+        margin-bottom:20px;
+        font-weight: bold;
+    }
+
+}
