@@ -273,6 +273,7 @@
 .fumantes {
     padding: 0 20px;
     padding-top:50px;
+    padding-bottom:55px;
     max-width: 1220px;
     margin: 0 auto;
 }
@@ -388,6 +389,85 @@
 
     .fumantes-gallery {
         grid-template-columns: repeat(3, 156px);
+    }
+
+}
+
+
+.radicais-livres {
+    padding: 0 20px;
+    padding-top:50px;
+    padding-bottom:180px;
+    max-width: 1220px;
+    margin: 0 auto;
+    background:url(../img/wave-blue.svg) no-repeat center bottom;
+}
+
+.radicais-livres-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #062C4E;
+}
+
+.radicais-livres-description {
+    font-size: 18px;
+    text-align: center;
+    color: #062C4E;
+}
+
+.radicais-livres-content {    
+    font-size: 16px;
+}
+
+@media (max-width: 991px){
+    .radicais-livres-content {   
+        display:flex;
+        flex-direction: column;
+    }
+    .radicais-livres-content-col-left {
+        margin-top:40px;
+    }
+}
+
+.radicais-livres-content-col-left {
+    order: 2;
+}
+
+.radicais-livres-content-col-right {
+    order: 1;
+}
+
+@media (min-width: 992px){
+
+    .radicais-livres {
+        padding-top:70px;
+    }
+
+    .radicais-livres-title {
+        font-size: 55px;
+        text-align:left;
+    }
+
+    .radicais-livres-description {
+        margin-bottom:30px;
+        font-weight: bold;
+        text-align:left;
+    }
+
+    .radicais-livres-content-col-left {
+        order: 1;
+        margin-top:20px;
+    }
+    
+    .radicais-livres-content-col-right {
+        order: 2;
+    }
+
+    .radicais-livres-content {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
     }
 
 }
