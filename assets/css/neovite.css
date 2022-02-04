@@ -542,3 +542,69 @@
     }
 
 }
+
+
+
+
+.luteina {
+    padding: 0 20px;
+    padding-top: 62px;
+    padding-bottom: 55px;
+    max-width: 1220px;
+    margin: 0 auto;
+    
+}
+
+.luteina-head {
+
+}
+
+.luteina-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #062C4E;
+}
+
+.luteina-description {
+    font-size: 18px;
+    text-align: center;
+    color: #062C4E;
+}
+
+.luteina-content {
+    columns: 330px 2;
+    column-gap: 65px;
+    text-align: center;
+    color: #646464;
+    font-size: 16px;
+}
+
+@media (min-width: 992px){
+
+    .luteina {
+        padding-top: 62px;
+    }
+
+    .luteina-title {
+        font-size: 55px;
+        text-align: left;
+    }
+    
+    .luteina-description {
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .luteina-wrap {
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        column-gap: 50px;
+    }
+
+    .luteina-content {
+        text-align: left;
+    }
+
+}
