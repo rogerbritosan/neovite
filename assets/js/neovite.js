@@ -12,3 +12,17 @@ function fixedMenuDmri(){
         menuDmri.classList.remove('stickyDmri');
     }
 }
+
+$(window).scroll(function() {
+
+    var position = $(this).scrollTop();
+
+    $('.section').each(function() {
+        var target = $(this).offset().top;
+        var id = $(this).attr('id');
+
+        if (position >= target) {
+            $('#dmri-menu li a').attr('href', id).addClass('active');
+        }
+    });
+});
