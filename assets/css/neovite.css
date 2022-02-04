@@ -473,6 +473,22 @@
 
 }
 
+#carousel-luz-azul .carousel-indicators {
+    bottom: -35px;
+}
+
+#carousel-luz-azul li.active {
+    background-color:#062C4E;
+}
+
+#carousel-luz-azul li {
+    border:0;
+    background-color:#C4C4C4;
+    width: 7px;
+    height: 7px;
+    margin:0 4px;
+}
+
 
 .luz-azul {
     padding: 0 20px;
@@ -552,6 +568,14 @@
     padding-top: 62px;
     max-width: 1220px;
     margin: 0 auto;    
+}
+
+.luteina.recuo .luteina-wrap {
+    grid-template-columns: .9fr .6fr;
+}
+
+.luteina.recuo .luteina-wrap .luteina-content {
+    columns: 300px 2;
 }
 
 .luteina-bloco-1 {
