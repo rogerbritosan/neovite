@@ -549,10 +549,19 @@
 .luteina {
     padding: 0 20px;
     padding-top: 62px;
-    padding-bottom: 55px;
     max-width: 1220px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
+}
+
+.luteina-bloco-1 {
+    background: url(../img/wave-yellow-1.svg) no-repeat center bottom;
+    height:68px;
+}
+
+.luteina-bloco-2 {
+    background: url(../img/wave-yellow-2.svg) no-repeat center bottom;
+    height:68px;
+    padding-top:130px;
 }
 
 .luteina-head {
