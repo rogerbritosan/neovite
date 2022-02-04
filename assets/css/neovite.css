@@ -183,6 +183,10 @@
         column-gap: 50px;
     }
 
+    .dmri-galery-wrap {
+        overflow: hidden;
+    }
+
     .dmri-galery {
         width:auto;
     }
@@ -230,11 +234,13 @@
     font-weight:bold;
     font-size:30px;
     text-align:center;
+    color: #062C4E;
 }
 
 .dmri-description {
     font-size:18px;
     text-align:center;
+    color: #062C4E;
 }
 
 .dmri-content {
@@ -259,6 +265,129 @@
     .dmri-description {
         margin-bottom:20px;
         font-weight: bold;
+    }
+
+}
+
+
+.fumantes {
+    padding: 0 20px;
+    padding-top:50px;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.fumantes-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #062C4E;
+}
+
+.fumantes-description {
+    font-size: 18px;
+    text-align: center;
+    color: #062C4E;
+}
+
+.fumantes-gallery-wrap {
+    max-width: 100%;
+}
+
+.fumantes-gallery {
+    overflow:scroll;
+    width:100%;
+}
+
+.fumantes-gallery {
+
+}
+
+.fumantes-content {    
+    font-size: 16px;
+}
+
+@media (max-width: 991px){
+    .fumantes-content {   
+        display:flex;
+        flex-direction: column;
+    }
+    .fumantes-content-col-left {
+        margin-top:40px;
+    }
+}
+
+.fumantes-content-col-left {
+    order: 2;
+}
+
+.fumantes-content-col-right {
+    order: 1;
+}
+
+.fumantes-gallery {
+    list-style:none;
+    padding:0;
+    display:grid;
+    column-gap: 17px;
+    grid-template-columns: repeat(3, 200px);
+}
+
+.fumantes-gallery-item-01 {
+    background:url(../img/fumantes-gallery-1.png) no-repeat center center;
+    width:200px;
+    height: 200px;
+    background-size: contain;
+}
+
+.fumantes-gallery-item-02 {
+    background:url(../img/fumantes-gallery-2.png) no-repeat center center;
+    width:200px;
+    height: 200px;
+    background-size: contain;
+}
+
+.fumantes-gallery-item-03 {
+    background:url(../img/fumantes-gallery-3.png) no-repeat center center;
+    width:200px;
+    height: 200px;
+    background-size: contain;
+}
+
+@media (min-width: 992px){
+
+    .fumantes-title {
+        font-size: 55px;
+    }
+
+    .fumantes-description {
+        margin-bottom:30px;
+        font-weight: bold;
+    }
+
+    .fumantes-content-col-left {
+        order: 1;
+    }
+    
+    .fumantes-content-col-right {
+        order: 2;
+    }
+
+    .fumantes-gallery-item-01,
+    .fumantes-gallery-item-02,
+    .fumantes-gallery-item-03 {
+        width:156px;
+        height: 156px;
+    }
+
+    .fumantes-content {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+
+    .fumantes-gallery {
+        grid-template-columns: repeat(3, 156px);
     }
 
 }
