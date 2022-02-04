@@ -389,6 +389,7 @@
 
     .fumantes-gallery {
         grid-template-columns: repeat(3, 156px);
+        overflow: hidden;
     }
 
 }
