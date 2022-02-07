@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+body.fixedSpace {
+    padding-top:80px;
+}
+
 .banner-neovite {
     background-image:url(../img/banner-neovite.png);
     background-repeat:no-repeat;
@@ -61,7 +69,7 @@
 .stickyDmri {
     position: fixed;
     top:0;
-    z-index: 1;
+    z-index: 700;
 }
 
 @media (min-width: 992px){

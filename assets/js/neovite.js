@@ -1,39 +1,44 @@
 window.onscroll = function(){
     fixedMenuDmri();
     highlightMenu();
+
 }
 
 var menuDmri = document.getElementById('dmri-menu');
+var body = document.body;
 menuDmri.style.maxWidth = menuDmri.offsetWidth + "px";
 menuDmri.style.minWidth = menuDmri.offsetWidth + "px";
 
 function fixedMenuDmri(){
     if (window.pageYOffset > menuDmri.offsetTop){
         menuDmri.classList.add('stickyDmri');
+        body.classList.add('fixedSpace');
     } else {
         menuDmri.classList.remove('stickyDmri');
+        body.classList.remove('fixedSpace');
     }
 }
 
 function highlightMenu(){
     var position = document.documentElement.scrollTop;
-    //console.log('position',position);
-
     var sections = document.querySelectorAll('.section');
     sections.forEach( s => {
 
         var target = s.offsetTop;
         var id = s.id;
-        //console.log('target',target)
+        
+        var menu = document.querySelectorAll('.dmri-menu-link');
 
         if (position >= target){
-            var menu = document.querySelectorAll('.dmri-menu-link');
 
-            menu.forEach(link => {
+            menu.forEach( (link,index) => {
+                link.classList.remove('active');
+                
                 if(link.dataset.section == id){
                     link.classList.add('active');
                 }
-            })
+
+            });
 
         }
 
@@ -41,4 +46,15 @@ function highlightMenu(){
 
 }
 
-// https://codepen.io/eksch/pen/xwdOeK
+var menu = document.querySelectorAll('.dmri-menu-link');
+menu.forEach(link=>{
+
+    link.addEventListener('click',function(){
+
+        var id = link.dataset.section;
+        var el = document.getElementById(id);
+        document.documentElement.scrollTop = el.offsetTop;
+
+    });
+
+});
