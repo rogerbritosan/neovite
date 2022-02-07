@@ -61,15 +61,20 @@
 .stickyDmri {
     position: fixed;
     top:0;
-    max-width: 1358px;
-    min-width: 1358px;
-    box-shadow: 0px 3px 2px 3px #0000000f;
     z-index: 1;
+}
+
+@media (min-width: 992px){
+    .stickyDmri {
+        max-width: 1460px;
+        min-width: 1460px;
+    }
 }
 
 .dmri-menu {
     list-style:none;
     padding:0;
+    margin:0;
     display:grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: #fff;
