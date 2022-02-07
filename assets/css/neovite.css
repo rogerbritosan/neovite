@@ -66,8 +66,8 @@
 
 @media (min-width: 992px){
     .stickyDmri {
-        max-width: 1460px;
-        min-width: 1460px;
+        /*max-width: 1460px;
+        min-width: 1460px;*/
     }
 }
 
