@@ -55,8 +55,7 @@ menu.forEach(link=>{
         var el = document.getElementById(id);
         document.documentElement.scrollTop = el.offsetTop;
 
-        //window.location.hash = id;
-
+        // adicionando parâmetros dinamicamente
         var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?section=' + id;
         window.history.pushState({path:newurl},'',newurl);
 
