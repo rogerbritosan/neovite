@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Regular.woff2') format('woff2'),
+        url('Trirong-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Light.woff2') format('woff2'),
+        url('Trirong-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url('Trirong-Bold.woff2') format('woff2'),
+        url('Trirong-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

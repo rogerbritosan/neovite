@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('../font/trirong/trirong.css');
+@import url('../font/montserrat/montserrat.css');
 
 html {
     scroll-behavior: smooth;
@@ -28,15 +30,22 @@ body.fixedSpace {
     text-align: center;
     color:#fff;
     font-size:16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
 }
 
 .banner-neovite-title {
     color:#fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trirong', sans-serif;
     font-size: 30px;
     line-height: 1.1;
     font-weight:300;
     margin-bottom: 30px;
+}
+
+.banner-neovite-title em {
+    font-weight:bold;
+    font-style:normal;
 }
 
 @media (min-width: 992px){
@@ -52,7 +61,7 @@ body.fixedSpace {
     .banner-neovite-title {
         font-size: 70px;
         line-height: 1.1;
-        max-width:70%;
+        max-width:80%;
         margin: 0 auto;
         margin-bottom: 45px;
     }
@@ -103,6 +112,8 @@ body.fixedSpace {
     border-bottom:2px solid #D9D9D9;
     color:#646464;
     position:relative;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
 }
 
 .dmri-menu-link:after {
@@ -259,12 +270,14 @@ body.fixedSpace {
     font-size:30px;
     text-align:center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .dmri-description {
     font-size:18px;
     text-align:center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .dmri-content {
@@ -273,6 +286,8 @@ body.fixedSpace {
     text-align:center; 
     color:#646464;
     font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
 }
 
 @media (min-width: 992px){
@@ -307,12 +322,14 @@ body.fixedSpace {
     font-size: 30px;
     text-align: center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .fumantes-description {
     font-size: 18px;
     text-align: center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .fumantes-gallery-wrap {
@@ -330,6 +347,8 @@ body.fixedSpace {
 
 .fumantes-content {    
     font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
 }
 
 @media (max-width: 991px){
@@ -433,16 +452,20 @@ body.fixedSpace {
     font-size: 30px;
     text-align: center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .radicais-livres-description {
     font-size: 18px;
     text-align: center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .radicais-livres-content {    
     font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 991px){
@@ -532,12 +555,14 @@ body.fixedSpace {
     font-size: 30px;
     text-align: center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .luz-azul-description {
     font-size: 18px;
     text-align: center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .luz-azul-content {
@@ -546,6 +571,8 @@ body.fixedSpace {
     text-align: center;
     color: #646464;
     font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
 }
 
 @media (min-width: 992px){
@@ -626,12 +653,14 @@ body.fixedSpace {
     font-size: 30px;
     text-align: center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .luteina-description {
     font-size: 18px;
     text-align: center;
     color: #062C4E;
+    font-family: 'Trirong', sans-serif;
 }
 
 .luteina-content {
@@ -640,6 +669,8 @@ body.fixedSpace {
     text-align: center;
     color: #646464;
     font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
 }
 
 @media (min-width: 992px){
