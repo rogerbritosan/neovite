@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('../font/trirong/trirong.css');
-@import url('../font/montserrat/montserrat.css');
+@import url('../font/montserrat-2/montserrat.css');
 
 html {
     scroll-behavior: smooth;
@@ -31,7 +31,7 @@ body.fixedSpace {
     color:#fff;
     font-size:16px;
     font-family: 'Montserrat',sans-serif;
-    font-weight:bold;
+    font-weight:600;
 }
 
 .banner-neovite-title {
@@ -71,6 +71,7 @@ body.fixedSpace {
 .dmri-menu-wrap {
     padding-left:20px;
     overflow-x: scroll;
+    overflow-y: hidden;
     max-width:100%;
     background-color: #fff;
 }
@@ -86,6 +87,10 @@ body.fixedSpace {
         /*max-width: 1460px;
         min-width: 1460px;*/
     }
+}
+
+.dmri {    
+    background:url(../img/wave-blue.svg) no-repeat center bottom;
 }
 
 .dmri-menu {
@@ -110,10 +115,10 @@ body.fixedSpace {
     box-sizing: border-box;
     cursor:pointer;
     border-bottom:2px solid #D9D9D9;
-    color:#646464;
+    color:#3F3F3F;
     position:relative;
     font-family: 'Montserrat',sans-serif;
-    font-weight:bold;
+    font-weight: 600;
 }
 
 .dmri-menu-link:after {
@@ -131,11 +136,11 @@ body.fixedSpace {
 
 .dmri-menu-link:hover {
     text-decoration:none;
-    font-weight:bold;
+    font-weight: 700;
 }
 
 .dmri-menu-link.active {
-    font-weight:bold;
+    font-weight: 700;
     color:#062C4E;
 }
 
@@ -163,7 +168,8 @@ body.fixedSpace {
     }
 
     .dmri-menu-wrap {
-        overflow:scroll;
+        overflow-x:scroll;
+        overflow-y: hidden;
         width: 100%;
     }
 
@@ -180,7 +186,8 @@ body.fixedSpace {
 
 .dmri-galery-wrap {
     width:100%;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .dmri-galery {
@@ -205,17 +212,16 @@ body.fixedSpace {
     padding-bottom: 150px;
     max-width: 1220px;
     margin: 0 auto;
-    background:url(../img/wave-blue.svg) no-repeat center bottom;
 }
 
 @media (min-width: 992px){
 
     .dmri-wrap {
         padding-top:62px;
-        padding-bottom: 170px;
+        padding-bottom: 130px;
         display: grid;
         grid-template-columns: 1fr .5fr;
-        column-gap: 50px;
+        column-gap: 40px;
     }
 
     .dmri-galery-wrap {
@@ -284,10 +290,10 @@ body.fixedSpace {
     columns: 330px 2;
     column-gap: 65px;
     text-align:center; 
-    color:#646464;
+    color:#3F3F3F;
     font-size: 16px;
     font-family: 'Montserrat',sans-serif;
-    font-weight:bold;
+    font-weight: 600;
 }
 
 @media (min-width: 992px){
@@ -337,7 +343,8 @@ body.fixedSpace {
 }
 
 .fumantes-gallery {
-    overflow:scroll;
+    overflow-x:scroll;
+    overflow-y: hidden;
     width:100%;
 }
 
@@ -348,7 +355,7 @@ body.fixedSpace {
 .fumantes-content {    
     font-size: 16px;
     font-family: 'Montserrat',sans-serif;
-    font-weight:bold;
+    font-weight: 600;
 }
 
 @media (max-width: 991px){
@@ -442,9 +449,12 @@ body.fixedSpace {
     padding: 0 20px;
     padding-top:50px;
     padding-bottom:180px;
+    background:url(../img/wave-blue.svg) no-repeat center bottom;
+}
+
+.radicais-livres-wrap {
     max-width: 1220px;
     margin: 0 auto;
-    background:url(../img/wave-blue.svg) no-repeat center bottom;
 }
 
 .radicais-livres-title {
@@ -465,7 +475,7 @@ body.fixedSpace {
 .radicais-livres-content {    
     font-size: 16px;
     font-family: 'Montserrat',sans-serif;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 @media (max-width: 991px){
@@ -569,10 +579,10 @@ body.fixedSpace {
     columns: 330px 2;
     column-gap: 65px;
     text-align: center;
-    color: #646464;
+    color: #3F3F3F;
     font-size: 16px;
     font-family: 'Montserrat',sans-serif;
-    font-weight:bold;
+    font-weight: 600;
 }
 
 @media (min-width: 992px){
@@ -667,10 +677,10 @@ body.fixedSpace {
     columns: 330px 2;
     column-gap: 65px;
     text-align: center;
-    color: #646464;
+    color: #3F3F3F;
     font-size: 16px;
     font-family: 'Montserrat',sans-serif;
-    font-weight:bold;
+    font-weight: 600;
 }
 
 @media (min-width: 992px){
